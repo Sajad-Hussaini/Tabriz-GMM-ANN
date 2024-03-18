@@ -1,5 +1,18 @@
 ## Tabriz Ground Motion Model app
+\
+![alt text](https://stand4heritage.org/wp-content/uploads/s4h-logo2.svg)
 
-This app downloads and displays a few seconds of data from the [Gravitational Wave Open Science Center](https://gwosc.org).
+\
+__Acknowlegement:__
+\
+This work has received funding from multiple sources. to be addedlater.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jkanner/streamlit-dataview/app.py)
+
+\
+__Reference:__
+\
+If you are going to use the code presented herein for any official study, please refer to:
+\
+"paper reference to be added"
+\
+"https:// link to the paper"
