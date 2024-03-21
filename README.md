@@ -5,7 +5,7 @@
 \
 __Acknowlegement:__
 \
-This work has received funding from multiple sources. To be added later.
+This work was partly financed by FCT / MCTES through national funds (PIDDAC) under the R&D Unit Institute for Sustainability and Innovation in Structural Engineering (ISISE), under reference UIDB / 04029/2020 (doi.org/10.54499/UIDB/04029/2020), and un-der the Associate Laboratory Advanced Production and Intelligent Systems (ARISE) under reference LA/P/0112/2020. This study has been partly funded by the STAND4HERITAGE project that has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (Grant agreement No. 833123), as an Advanced Grant. This work is partly financed by national funds through FCT (Foundation for Science and Technology), under grant agreement UI/BD/153379/2022 attributed to the second author
 
 
 \
@@ -13,6 +13,6 @@ __Reference:__
 \
 If you intend to utilize the code provided here for any formal study, kindly cite::
 \
-"paper reference to be added later"
+"Simulation of Seismic Scenarios and Construction of an ANN-based Ground Motion Model: A Case Study on the North Tabriz Fault in Northwest Iran"
 \
 "https:// link to the paper to be added later"
