@@ -1,4 +1,4 @@
-## Tabriz Ground Motion Model
+## ANN-based Ground Motion Model for Tabriz Region
 \
 ![alt text](https://stand4heritage.org/wp-content/uploads/s4h-logo2.svg)
 
