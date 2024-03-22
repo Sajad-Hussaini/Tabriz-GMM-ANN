@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import os
 import re
-import matplotlib.pyplot as plt
+import altair as alt
 
 @st.cache_resource
 def get_pg_models():
@@ -69,15 +69,20 @@ def main():
             col_pga.latex(f'PGA = {predicted_pga:.2f}\\ \\frac{{cm}}{{s^2}}')
             col_pgv.latex(f'PGV = {predicted_pgv:.2f}\\ \\frac{{cm}}{{s}}')
 
-            st.write('#### Spectral Acceleraton Graph')
-            fig, ax = plt.subplots(figsize=(9, 2), dpi=600)
-            ax.set_xscale('log')
-            ax.set_yscale('log')
-            ax.plot(sa_periods, predicted_sa, color='tab:blue')
-            ax.set_xlabel('Periods (s)')
-            ax.set_ylabel(r'$\mathregular{PSA\ (\frac{cm}{s^2})}$')
-            ax.grid(True, which='both', linestyle='--', linewidth=0.5)
-            st.pyplot(fig)
+            st.write('#### Spectral Acceleration Graph')
+            data = pd.DataFrame({'Periods': sa_periods, 'PSA': predicted_sa})
+            chart = alt.Chart(data).mark_line(color='blue').encode(
+                x=alt.X('Periods:Q', scale=alt.Scale(type='log', domain=[0.05, 2]), title='Periods (s)'),
+                y=alt.Y('PSA:Q', scale=alt.Scale(type='log'), title='PSA (cm/s²)'),
+            ).properties(
+                width=600,
+                height=200
+            ).configure_axis(
+                grid=True,
+                gridColor='gray',
+                gridOpacity=0.5,
+                gridWidth=0.5)
+            st.altair_chart(chart, use_container_width=True)
 
             st.download_button(label='Download SA as .csv',
                                data=get_data_download(sa_periods, predicted_sa),
