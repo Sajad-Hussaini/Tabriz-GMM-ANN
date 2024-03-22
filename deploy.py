@@ -46,9 +46,9 @@ def main():
                 """)
     st.write('#### Please Define Input Parameters')
     col_mw, col_rjb, col_fd = st.columns(3)
-    mw = col_mw.number_input('**Magnitude** (M_{w})', min_value=0.0, max_value=10.0, value=7.0, step=0.1, help="Magnitude of the earthquake")
-    rjb = col_rjb.number_input('**Distance** (R_{JB}) in km', min_value=0.0, max_value=1000.0, value=20.0, step=1.0, help="Joyner-Boore distance in kilometers")
-    fd = col_fd.number_input('**Focal Depth** (F_{d}) in km', min_value=0.0, max_value=100.0, value=10.0, step=1.0, help="Focal depth of the earthquake in kilometers")
+    mw = col_mw.number_input(r'**Magnitude** (M_{w})', min_value=0.0, max_value=10.0, value=7.0, step=0.1, help="Magnitude of the earthquake")
+    rjb = col_rjb.number_input(r'**Distance** (R_{JB}) in km', min_value=0.0, max_value=1000.0, value=20.0, step=1.0, help="Joyner-Boore distance in kilometers")
+    fd = col_fd.number_input(r'**Focal Depth** (F_{d}) in km', min_value=0.0, max_value=100.0, value=10.0, step=1.0, help="Focal depth of the earthquake in kilometers")
     input_data = pd.DataFrame({'Mw': [mw], 'Rjb': [rjb], 'Focal depth': [fd]})
 
     try:
