@@ -75,7 +75,7 @@ def main():
             ax.set_yscale('log')
             ax.plot(sa_periods, predicted_sa, color='tab:blue')
             ax.set_xlabel('Periods (s)')
-            ax.set_ylabel(r'SA ($\frac{cm}{s^2}$)')
+            ax.set_ylabel(r'$\mathregular{PSA\ (\frac{cm}{s^2})}$')
             ax.grid(True, which='both', linestyle='--', linewidth=0.5)
             st.pyplot(fig)
 
