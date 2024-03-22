@@ -9,6 +9,7 @@ This work was partly financed by FCT / MCTES through national funds (PIDDAC) und
 
 \
 __Reference:__
+\
 kindly cite below if used for any formal study:
 \
 *Simulation of Seismic Scenarios and Construction of an ANN-based Ground Motion Model: A Case Study on the North Tabriz Fault in Northwest Iran*
