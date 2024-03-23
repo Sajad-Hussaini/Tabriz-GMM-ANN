@@ -84,9 +84,9 @@ def main():
                 gridWidth=0.5)
             st.altair_chart(chart, use_container_width=True)
 
-            st.download_button(label='Download SA as .csv',
+            st.download_button(label='Download PSA as .csv',
                                data=get_data_download(sa_periods, predicted_sa),
-                               file_name='Sa_Tabriz.csv', mime='text/csv')
+                               file_name='PSa_Tabriz.csv', mime='text/csv')
     except ValueError as ve:
         st.error(str(ve))
     st.markdown("Developed by [S.M. Sajad Hussaini](https://linkedin.com/in/sajadhussaini)")
