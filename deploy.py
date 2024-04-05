@@ -42,7 +42,7 @@ def main():
     col_img.image("s4h-logo.svg", width=150)
     col_txt.markdown("""
                 * **Mixed effect regression** using **Artificial Neural Networks**
-                * Reference: *Simulation of Seismic Scenarios and Construction of an ANN-based Ground Motion Model: A Case Study on the North Tabriz Fault in Northwest Iran*
+                * Reference: *Seismic Scenario Simulation and ANN-based Ground Motion Model Development on the North Tabriz Fault in Northwest Iran*
                 """)
     st.write('#### Please Define Input Parameters')
     col_mw, col_rjb, col_fd = st.columns(3)
