@@ -13,5 +13,5 @@ __Reference:__
 kindly cite below if used for any formal study:
 \
 *Seismic Scenario Simulation and ANN-based Ground Motion Model Development on the North Tabriz Fault in Northwest Iran*
-
+\
 *link to the paper will be added later*
