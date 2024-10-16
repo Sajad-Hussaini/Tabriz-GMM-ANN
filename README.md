@@ -11,6 +11,7 @@ This work was partly financed by FCT / MCTES through national funds (PIDDAC) und
 __Reference:__
 \
 kindly cite below if used for any formal study:
+
 *1. Code DOI: 10.5281/zenodo.13939496*
 
 *2. Paper: Seismic Scenario Simulation and ANN-based Ground Motion Model Development on the North Tabriz Fault in Northwest Iran*
