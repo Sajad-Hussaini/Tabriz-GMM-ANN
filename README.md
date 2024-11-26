@@ -14,5 +14,5 @@ kindly cite below if used for any formal study:
 
 *1. ANN-based Ground Motion Model for Tabriz Region DOI: 10.5281/zenodo.13939496*
 
-*2. Seismic Scenario Simulation and ANN-based Ground Motion Model Development on the North Tabriz Fault in Northwest Iran DOI: (will be added upon publishing)*
+*2. Seismic Scenario Simulation and ANN-based Ground Motion Model Development on the North Tabriz Fault in Northwest Iran DOI: https://doi.org/10.1007/s10950-024-10264-x*
 
